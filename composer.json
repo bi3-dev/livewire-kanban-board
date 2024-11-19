@@ -1,11 +1,11 @@
 {
-    "name": "mantix/livewire-kanban-board",
+    "name": "bi3/livewire-kanban-board",
     "description": "Livewire component to show models/data according to its current status on a Kanban board",
     "keywords": [
-        "mantix",
+        "bi3",
         "livewire-kanban-board"
     ],
-    "homepage": "https://github.com/mantix/livewire-kanban-board",
+    "homepage": "https://github.com/bi3-dev/livewire-kanban-board",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": "^8.1",
-        "illuminate/support": "^10.0",
-        "laravel/framework": "^10.0",
+        "illuminate/support": "^10.0|^11.0",
+        "laravel/framework": "^10.0|^11.0",
         "livewire/livewire": "^3.0"
     },
     "require-dev": {
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mantix\\LivewireKanbanBoard\\": "src"
+            "Bi3\\LivewireKanbanBoard\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mantix\\LivewireKanbanBoard\\Tests\\": "tests"
+            "Bi3\\LivewireKanbanBoard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mantix\\LivewireKanbanBoard\\LivewireKanbanBoardServiceProvider"
+                "Bi3\\LivewireKanbanBoard\\LivewireKanbanBoardServiceProvider"
             ],
             "aliases": {
-                "LivewireKanbanBoard": "Mantix\\LivewireKanbanBoard\\LivewireKanbanBoardFacade"
+                "LivewireKanbanBoard": "Bi3\\LivewireKanbanBoard\\LivewireKanbanBoardFacade"
             }
         }
     }
